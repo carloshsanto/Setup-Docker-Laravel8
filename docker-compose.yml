@@ -31,9 +31,9 @@ services:
         networks: 
             - lcs_rede
 
-    # db mysql
+    # db mariadb
     mysql:
-        image: mysql:5.7.22
+        image: bitnami/mariadb:latest
         restart: always
         environment: 
             MYSQL_DATABASE: ${DB_DATABASE}
