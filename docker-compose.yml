@@ -33,9 +33,9 @@ services:
 
     # db mariadb
     mysql:
-        image: bitnami/mariadb:latest
+        image: mariadb
         restart: always
-        environment: 
+        environment:            
             MYSQL_DATABASE: ${DB_DATABASE}
             MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
             MYSQL_PASSWORD: ${DB_PASSWORD}

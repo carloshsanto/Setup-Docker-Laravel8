@@ -8,15 +8,21 @@ git clone https://github.com/carloshsanto/Setup-Docker-Laravel8.git
 ```
 
 
-Clone os Arquivos do Laravel
+Instalar do Laravel via git bast
 ```sh
-git clone https://github.com/laravel/laravel.git example-project
+ composer create-project laravel/laravel example-project
 ```
 
 
 Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
 ```sh
 cp -r setup-docker-laravel/* example-project/
+```
+
+
+remover versionamento .git
+```sh
+$ rm -rf .git
 ```
 
 
