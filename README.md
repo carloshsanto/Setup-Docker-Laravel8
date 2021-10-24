@@ -38,12 +38,12 @@ Atualizar as variáveis de ambiente do arquivo .env
 APP_NAME=lcs-app
 APP_URL=http://localhost:8989
 
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3388
-DB_DATABASE=nome_que_desejar_db
+DB_CONNECTION=pgsql
+DB_HOST=postgres
+DB_PORT=5432
+DB_DATABASE=lcs
 DB_USERNAME=root
-DB_PASSWORD=root
+DB_PASSWORD=123456
 
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
